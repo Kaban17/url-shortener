@@ -1,0 +1,36 @@
+
+{"time":"2025-06-10T18:56:07.828771846+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T18:56:07.843309514+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T18:56:49.004442786+04:00","level":"INFO","msg":"Link added","source":"storage"}
+{"time":"2025-06-10T18:59:38.006086213+04:00","level":"INFO","msg":"Link added","source":"storage"}
+{"time":"2025-06-10T19:03:11.189040573+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T19:03:11.189544138+04:00","level":"ERROR","msg":"Failed to create unique index on url","source":"storage","error":"UNIQUE constraint failed: recordings.url"}
+{"time":"2025-06-10T19:03:24.722560726+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T19:03:24.737525399+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T19:03:31.922502874+04:00","level":"INFO","msg":"Link added","source":"storage","url":"example.com","short_url":"mwyISoQ"}
+{"time":"2025-06-10T19:03:41.581255486+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"example.com"}
+{"time":"2025-06-10T19:03:52.24130573+04:00","level":"INFO","msg":"Link added","source":"storage","url":"exampl.com","short_url":"fUE9ilf"}
+{"time":"2025-06-10T19:32:42.35273244+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T19:32:42.352855433+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T19:32:44.099322874+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"exampl.com"}
+{"time":"2025-06-10T19:40:22.841886588+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T19:40:22.842059729+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T19:40:25.687062835+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"exampl.com"}
+{"time":"2025-06-10T19:41:18.865303306+04:00","level":"ERROR","msg":"Failed to get original URL","source":"storage","error":null}
+{"time":"2025-06-10T19:42:07.092580634+04:00","level":"ERROR","msg":"Failed to get original URL","source":"storage","error":null}
+{"time":"2025-06-10T19:42:07.429717246+04:00","level":"ERROR","msg":"Failed to get original URL","source":"storage","error: ":"sql: no rows in result set"}
+{"time":"2025-06-10T19:42:36.156495778+04:00","level":"ERROR","msg":"Failed to get original URL","source":"storage","error":null}
+{"time":"2025-06-10T19:43:15.384032488+04:00","level":"INFO","msg":"Link added","source":"storage","url":"https://example.com","short_url":"bnibQcy"}
+{"time":"2025-06-10T19:43:30.078488917+04:00","level":"ERROR","msg":"Failed to get original URL","source":"storage","error":null}
+{"time":"2025-06-10T19:44:12.12956555+04:00","level":"ERROR","msg":"Failed to get original URL","source":"storage","error":null}
+{"time":"2025-06-10T19:44:42.857989375+04:00","level":"ERROR","msg":"Failed to get original URL","source":"storage","error":null}
+{"time":"2025-06-10T19:46:12.096269897+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T19:46:12.096418244+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T19:46:31.608582192+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://example.com"}
+{"time":"2025-06-10T19:56:17.751347107+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T19:56:17.751477783+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T20:03:01.196617792+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T20:03:01.196747071+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T20:03:44.682113776+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-10T20:03:44.682235651+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-10T20:03:53.729889421+04:00","level":"INFO","msg":"Link added","source":"storage","url":"https://music.yandex.ru/","short_url":"tm39KMv"}

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Сократи ссылку</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                max-width: 600px;
+                margin: 50px auto;
+                padding: 20px;
+                text-align: center;
+            }
+
+            input[type="text"] {
+                width: 80%;
+                padding: 10px;
+                font-size: 16px;
+            }
+
+            button {
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            #result {
+                margin-top: 20px;
+                font-size: 18px;
+            }
+
+            #copyBtn {
+                margin-left: 10px;
+                cursor: pointer;
+                color: blue;
+                background: none;
+                border: none;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Сократи ссылку</h1>
+        <input
+            type="text"
+            id="longURL"
+            placeholder="Введите длинную ссылку..."
+        />
+        <button onclick="shortenURL()">Сократить</button>
+
+        <div id="result"></div>
+
+        <script>
+            async function shortenURL() {
+                const input = document.getElementById("longURL");
+                const resultDiv = document.getElementById("result");
+
+                const url = input.value.trim();
+                if (!url) {
+                    resultDiv.innerHTML =
+                        "<p style='color:red;'>Введите URL</p>";
+                    return;
+                }
+
+                try {
+                    const res = await fetch("/api/shorten", {
+                        method: "POST",
+                        headers: {
+                            "Content-Type": "application/json",
+                        },
+                        body: JSON.stringify({ url }),
+                    });
+
+                    const data = await res.json();
+
+                    if (res.ok) {
+                        const fullShortURL =
+                            window.location.origin + "/" + data.short_url;
+
+                        resultDiv.innerHTML = `
+            <p><strong>Короткая ссылка:</strong>
+              <span id="shortURLText">${fullShortURL}</span>
+              <button id="copyBtn" onclick="copyToClipboard('${fullShortURL}')">Копировать</button>
+            </p>
+          `;
+                    } else {
+                        resultDiv.innerHTML = `<p style='color:red;'>Ошибка: ${data.error || "Неизвестная ошибка"}</p>`;
+                    }
+                } catch (err) {
+                    console.error(err);
+                    resultDiv.innerHTML = `<p style='color:red;'>Ошибка сети</p>`;
+                }
+            }
+
+            function copyToClipboard(text) {
+                navigator.clipboard.writeText(text).then(
+                    () => {
+                        alert("Ссылка скопирована в буфер обмена!");
+                    },
+                    () => {
+                        prompt("Скопируйте вручную:", text);
+                    },
+                );
+            }
+        </script>
+    </body>
+</html>
