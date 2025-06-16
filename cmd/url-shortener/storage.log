@@ -34,3 +34,14 @@
 {"time":"2025-06-10T20:03:44.682113776+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
 {"time":"2025-06-10T20:03:44.682235651+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
 {"time":"2025-06-10T20:03:53.729889421+04:00","level":"INFO","msg":"Link added","source":"storage","url":"https://music.yandex.ru/","short_url":"tm39KMv"}
+{"time":"2025-06-10T20:07:18.83801621+04:00","level":"INFO","msg":"Link added","source":"storage","url":"https://github.com/Kaban17/url-shortener","short_url":"kFruDIo"}
+{"time":"2025-06-14T23:59:07.339486837+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-14T23:59:07.339799239+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-14T23:59:12.13517223+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"favicon.ico"}
+{"time":"2025-06-14T23:59:32.215825584+04:00","level":"INFO","msg":"Link added","source":"storage","url":"https://contest.yandex.ru/contest/27393/problems/E/","short_url":"qhOvcS"}
+{"time":"2025-06-14T23:59:33.807935758+04:00","level":"INFO","msg":"Link added","source":"storage","url":"http://localhost:8080/","short_url":"eqZ8ToF"}
+{"time":"2025-06-14T23:59:37.857475789+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://contest.yandex.ru/contest/27393/problems/E/"}
+{"time":"2025-06-14T23:59:38.570544978+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://contest.yandex.ru/contest/27393/problems/E/"}
+{"time":"2025-06-14T23:59:40.38406244+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://contest.yandex.ru/contest/27393/problems/E/"}
+{"time":"2025-06-15T00:01:20.997807957+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"docs"}
+{"time":"2025-06-15T00:01:21.077471702+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"favicon.ico"}

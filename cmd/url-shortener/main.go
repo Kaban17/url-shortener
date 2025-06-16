@@ -7,9 +7,7 @@ import (
 )
 
 func main() {
-	URL := "example.com"
 
-	fmt.Println(URL)
 	db, err := storage.Connect()
 	//defer storage.Close(db)
 	if err != nil {
@@ -30,7 +28,7 @@ func main() {
 
 	}
 	r.GET("/:short", handler.RedirectURL)
-	r.StaticFile("/", "./../../static/index.html") // замени путь при необходимости
+	r.StaticFile("/", "./../../static/index.html")
 	r.StaticFile("/index.html", "./../../static/index.html")
 	r.Run(":8080")
 }
