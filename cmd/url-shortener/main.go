@@ -28,7 +28,7 @@ func main() {
 
 	}
 	r.GET("/:short", handler.RedirectURL)
-	r.StaticFile("/", "./../../static/index.html")
-	r.StaticFile("/index.html", "./../../static/index.html")
+	r.StaticFile("/", "/home/boar/go-projects/url-shortener/static/index.html")
+	r.StaticFile("/index.html", "/home/boar/go-projects/url-shortener/static/index.html")
 	r.Run(":8080")
 }

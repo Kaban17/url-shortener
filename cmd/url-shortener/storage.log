@@ -45,3 +45,28 @@
 {"time":"2025-06-14T23:59:40.38406244+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://contest.yandex.ru/contest/27393/problems/E/"}
 {"time":"2025-06-15T00:01:20.997807957+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"docs"}
 {"time":"2025-06-15T00:01:21.077471702+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"favicon.ico"}
+{"time":"2025-06-20T15:10:31.553916353+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-20T15:10:31.55435894+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-20T15:10:37.158373522+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"favicon.ico"}
+{"time":"2025-06-20T15:10:42.882662912+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://music.yandex.ru/"}
+{"time":"2025-06-20T16:40:31.127230135+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-20T16:40:31.127471808+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-20T16:40:45.028791939+04:00","level":"ERROR","msg":"Failed to get short URL","source":"storage","error":"redis: nil"}
+{"time":"2025-06-20T16:40:51.738615467+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"qL3B1DY"}
+{"time":"2025-06-20T16:40:51.877561125+04:00","level":"WARN","msg":"Short URL not found","source":"storage","short_url":"favicon.ico"}
+{"time":"2025-06-20T16:41:35.341525372+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-20T16:41:35.341811034+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-20T16:41:40.638019691+04:00","level":"INFO","msg":"Link added","source":"storage","url":"https://www.youtube.com/","short_url":"qL3B1DY"}
+{"time":"2025-06-20T16:44:03.050472097+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-20T16:44:03.050754598+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-20T16:44:18.120597567+04:00","level":"INFO","msg":"Link added successfully","source":"storage","url":"https://chat.deepseek.com/a/chat/s/0e0beae7-9070-4d8f-83f6-4436a95bddf0","short_url":"bbksFj9"}
+{"time":"2025-06-20T16:44:36.151698194+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://chat.deepseek.com/a/chat/s/0e0beae7-9070-4d8f-83f6-4436a95bddf0"}
+{"time":"2025-06-20T16:46:50.864405773+04:00","level":"INFO","msg":"SQLite database connected","source":"storage"}
+{"time":"2025-06-20T16:46:50.864939134+04:00","level":"INFO","msg":"Table 'recordings' is ready","source":"storage"}
+{"time":"2025-06-20T16:48:07.405824418+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://music.yandex.ru/"}
+{"time":"2025-06-20T16:48:29.867224269+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://music.yandex.ru/"}
+{"time":"2025-06-20T16:50:00.890078054+04:00","level":"INFO","msg":"Link added successfully","source":"storage","url":"https://www.aufgaben.schubert-verlag.de/","short_url":"oB5uUCv"}
+{"time":"2025-06-20T16:50:12.299941203+04:00","level":"DEBUG","msg":"Cache hit for short URL","source":"storage","short_url":"oB5uUCv"}
+{"time":"2025-06-20T17:12:10.422664826+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"https://www.aufgaben.schubert-verlag.de/"}
+{"time":"2025-06-20T17:12:19.439046552+04:00","level":"INFO","msg":"URL already exists","source":"storage","url":"http://localhost:8080/"}
+{"time":"2025-06-20T17:12:24.903038477+04:00","level":"DEBUG","msg":"Retrieved original URL","source":"storage","short_url":"eqZ8ToF","original_url":"http://localhost:8080/"}
